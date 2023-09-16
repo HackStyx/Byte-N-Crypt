@@ -52,14 +52,14 @@ BYTE N CRYPT offers a wide range of features to bolster your cybersecurity effor
 
 Here are some screenshots showcasing the user interface and functionality of BYTE N CRYPT:
 
-_Insert screenshots here to provide users with a visual overview of your toolkit's features._
+
 
 ## Installation
 
 To get started with BYTE N CRYPT, follow these installation instructions:
 
 1. Clone this repository to your local machine:                    
-   git clone: https://github.com/your-username/byte-n-crypt.git
+   git clone: https://github.com/HackStyx/Byte-N-Crypt.git
 2. Navigate to the project directory:                              
        _cd byte-n-crypt_
 3. Follow the specific installation instructions provided for each tool within their respective directories.
