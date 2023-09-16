@@ -51,6 +51,13 @@ BYTE N CRYPT offers a wide range of features to bolster your cybersecurity effor
 ## Screenshots
 
 Here are some screenshots showcasing the user interface and functionality of BYTE N CRYPT:
+![loading screen](https://github.com/HackStyx/Byte-N-Crypt/assets/137396151/54cde34d-fb0d-44c2-a661-8e0a36b32e32)
+![homepage](https://github.com/HackStyx/Byte-N-Crypt/assets/137396151/7a360e65-7a90-4569-85a5-a2da1921d471)
+![toolkit](https://github.com/HackStyx/Byte-N-Crypt/assets/137396151/3d529372-e3ac-4c9f-8e93-4457c2430f85)
+![password generator](https://github.com/HackStyx/Byte-N-Crypt/assets/137396151/c9d1e748-6fbe-4639-91cb-828a94c3fed5)
+![password manager](https://github.com/HackStyx/Byte-N-Crypt/assets/137396151/6017224e-d44a-4a60-914b-b2ccc15fbdff)
+![enc dec ](https://github.com/HackStyx/Byte-N-Crypt/assets/137396151/5b4a9f18-372b-439b-b042-8377923601da)
+![IP lookup](https://github.com/HackStyx/Byte-N-Crypt/assets/137396151/e50c42d8-fd4c-4121-9f58-1d7d5b91deeb)
 
 
 
