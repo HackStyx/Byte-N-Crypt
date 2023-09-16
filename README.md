@@ -93,7 +93,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 If you have any questions, suggestions, or want to contribute to this project, please feel free to reach out to the developers:
 
 - [Hackstyx](https://github.com/hackstyx)
-- [Sazewiiz](https://github.com/sazewiiz)
+- [Sagewiiz](https://github.com/sagewiiz)
 - [Gekkorizz](https://github.com/gekkorizz)
 - [Tnmithun-15](https://github.com/tnmithun-15)
 
