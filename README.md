@@ -83,7 +83,7 @@ Detailed usage instructions for each tool can be found in the Source Code itself
 
 ->Use the window in full screen and if needed, change the window  scale
 
-->If you want to suggest anything or have some doubt related to this project , [CONTACT](#Contact.md) us.
+->If you want to suggest anything or have some doubt related to this project , [CONTACT](#CONTACT.md) us.
 
 
 
