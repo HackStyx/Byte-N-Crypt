@@ -1,4 +1,5 @@
 import sys
+import re
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QLineEdit, QPushButton, QVBoxLayout, QWidget, QMessageBox
 from PyQt5.QtGui import QFont, QColor, QPalette
 from PyQt5.QtCore import Qt
@@ -72,14 +73,35 @@ class PasswordStrengthChecker(QMainWindow):
 
     @staticmethod
     def calculate_password_strength(password):
-        # Password strength criteria implementation
+
         length = len(password)
-        if length < 8:
+
+        has_lowercase = any(char.islower() for char in password)
+        has_uppercase = any(char.isupper() for char in password)
+        has_digit = any(char.isdigit() for char in password)
+        has_special_char = re.search(r'[!@#$%^&*(),.?":{}|<>]', password) is not None
+
+        complexity = 0
+
+        complexity += has_lowercase
+        complexity += has_uppercase
+        complexity += has_digit
+        complexity += has_special_char
+
+        if length >= 8:
+            complexity += 1
+        if length >= 12:
+            complexity += 1
+        if length >= 16:
+            complexity += 1
+
+        if complexity < 3:
             return 0  # Weak password
-        elif length < 12:
+        elif complexity < 5:
             return 1  # Medium password
         else:
             return 2  # Strong password
+
 
     def closeEvent(self, event):
         confirm_exit = self.confirmExit()
